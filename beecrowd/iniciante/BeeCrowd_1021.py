@@ -1,5 +1,5 @@
 n=float(input())
-n=n*100
+n=round(n*100)
 nota100=nota50=nota20=nota10=nota5=nota2=moeda1=moeda50=moeda25=moeda10=moeda5=moeda01=0
 nota100=n//10000
 n=n%10000
