@@ -1,6 +1,6 @@
 n1,n2,n3,n4=map(float,input().split())
 media=((n1*2)+(n2*3)+(n3*4)+(n4))/10
-if 5<=media<=6.9:
+if 5<=media<7:
     exame=float(input())
     print(f'Media: {media:.1f}')
     print('Aluno em exame.')
