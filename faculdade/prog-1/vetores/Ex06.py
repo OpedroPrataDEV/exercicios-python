@@ -14,7 +14,7 @@ for c in range(candidatos):
     lista_media.append(media)
 for vaga in range(candidatos):
     for j in range(0, candidatos - vaga - 1):
-        if lista_media[j] > lista_media[j + 1]:
+        if lista_media[j] < lista_media[j + 1]:
             aux_media = lista_media[j]
             lista_media[j] = lista_media[j + 1]
             lista_media[j + 1] = aux_media
