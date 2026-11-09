@@ -12,4 +12,4 @@ def medidor(vetor):
     return maior
 
 
-print(medidor())
+print(medidor([1,2,3,1,2,3,4,1]))
